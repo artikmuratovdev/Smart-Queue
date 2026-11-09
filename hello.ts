@@ -14,7 +14,7 @@ const realtimeSecret = process.env.NAVBAT_REALTIME_SECRET;
 if (!realtimeSecret) throw new Error("NAVBAT_REALTIME_SECRET is not configured");
 const realtime = createRealtime({ secret: realtimeSecret, db: database });
 const app = new Hono();
-const allowedOrigins = ["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001"];
+const allowedOrigins = ["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:3001", "http://127.0.0.1:3001", "https://smartqueue-tau.vercel.app"];
 app.use("/api/*", cors({ origin: allowedOrigins, allowMethods: ["GET", "POST", "OPTIONS"], allowHeaders: ["Content-Type"] }));
 
 let schemaReady: Promise<void> | undefined;
