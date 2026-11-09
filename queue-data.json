@@ -1,0 +1,41 @@
+{
+  "tickets": [
+    {
+      "id": "a2af26e5-9f23-4827-bcf8-5d0674898578",
+      "number": 1,
+      "service": "admission",
+      "status": "done",
+      "created": 1794243444652
+    },
+    {
+      "id": "da9290a7-ff11-4d4c-8ca6-933a22f6451c",
+      "number": 2,
+      "service": "consultation",
+      "status": "done",
+      "created": 1794243500543
+    },
+    {
+      "id": "87a7e6aa-d174-4f39-a170-3e1d894ceab4",
+      "number": 3,
+      "service": "admission",
+      "status": "done",
+      "created": 1794243847051
+    },
+    {
+      "id": "7e5a43d5-b449-4f3f-80d8-a7c9fcdb4484",
+      "number": 4,
+      "service": "documents",
+      "status": "done",
+      "created": 1794243935485
+    },
+    {
+      "id": "17425f6d-c708-474d-8d23-4a27ce060d72",
+      "number": 5,
+      "service": "documents",
+      "status": "waiting",
+      "created": 1794244113836
+    }
+  ],
+  "current": null,
+  "sequence": 6
+}
